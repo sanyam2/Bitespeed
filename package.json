@@ -1,0 +1,27 @@
+{
+  "name": "bitespeed-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch src/app.ts",
+    "start:prod": "tsx src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "@types/node": "^20.14.2",
+    "fastify": "^4.28.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-swagger": "^5.2.0",
+    "fastify-type-provider-zod": "^1.2.0",
+    "fastify-zod": "^1.4.0",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.15.5",
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.0"
+  }
+}
