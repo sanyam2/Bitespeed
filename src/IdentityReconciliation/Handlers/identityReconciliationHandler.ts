@@ -124,7 +124,7 @@ async function getResponse(data: identityResp) {
     })
     const response = {
         "contact": {
-            "primaryContatctId": data.id,
+            "primaryContactId": data.id,
             "emails": emails,
             "phoneNumbers": phoneNumbers,
             "secondaryContactIds": secondaryIds
